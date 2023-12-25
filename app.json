@@ -31,6 +31,15 @@
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "85d01ece-b0ed-4d6d-99d2-b1be8adb9907"
+      }
+    },
+    "owner": "william.fernandes"
   }
 }
