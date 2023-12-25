@@ -9,6 +9,9 @@
       "recommended": true,
       "security": {
         "noDangerouslySetInnerHtml": "off"
+      },
+      "complexity": {
+        "noBannedTypes": "off"
       }
     },
     "ignore": ["node_modules/**/*", "dist/**/*", "web-build/**/*", ".expo/**/*"]
