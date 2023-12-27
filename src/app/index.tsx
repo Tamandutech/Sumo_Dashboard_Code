@@ -1,5 +1,5 @@
-import ConnectBluetoothButton from "@components/buttons/ConnectBluetoothButton";
-import Page from "@components/views/Page";
+import ConnectBluetoothButton from "@/components/buttons/connect-bluetooth-button";
+import Page from "@/components/views/page";
 import { router } from "expo-router";
 
 export default function IndexPage() {

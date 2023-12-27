@@ -1,4 +1,4 @@
-import HomeIcon from "@/components/icons/HomeIcon";
+import HomeIcon from "@/components/icons/home-icon";
 import {
   Heading,
   Icon,

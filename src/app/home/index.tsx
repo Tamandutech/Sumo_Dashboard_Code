@@ -1,4 +1,4 @@
-import Page from "@components/views/Page";
+import Page from "@/components/views/page";
 import { Heading } from "@gluestack-ui/themed";
 
 export default function Home() {

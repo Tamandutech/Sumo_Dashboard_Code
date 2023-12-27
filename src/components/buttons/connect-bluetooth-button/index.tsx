@@ -1,4 +1,4 @@
-import BluetoothConnectIcon from "@components/icons/BluetoothConnectIcon";
+import BluetoothConnectIcon from "@/components/icons/bluetooth-connect-icon";
 import {
   Button,
   ButtonIcon,
