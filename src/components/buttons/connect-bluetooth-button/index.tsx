@@ -6,7 +6,6 @@ import {
   TooltipContent,
   TooltipText,
 } from "@gluestack-ui/themed";
-import React from "react";
 
 type ConnectBluetoothButtonProps = {
   onConnect?: () => void;
