@@ -1,4 +1,7 @@
+import ActivityIcon from "@/components/icons/activity-icon";
+import CalibrationIcon from "@/components/icons/calibration-icon";
 import HomeIcon from "@/components/icons/home-icon";
+import StrategyIcon from "@/components/icons/strategy-icon";
 import {
   Heading,
   Icon,
@@ -12,7 +15,33 @@ import type { ComponentType } from "react";
 const pages = new Map<
   string,
   { title: string; icon: ComponentType; headerShown: boolean }
->([["index", { title: "Início", icon: HomeIcon, headerShown: false }]]);
+>([
+  ["index", { title: "Início", icon: HomeIcon, headerShown: false }],
+  [
+    "calibration",
+    {
+      title: "Calibração",
+      icon: CalibrationIcon,
+      headerShown: true,
+    },
+  ],
+  [
+    "strategies",
+    {
+      title: "Estratégias",
+      icon: StrategyIcon,
+      headerShown: true,
+    },
+  ],
+  [
+    "control",
+    {
+      title: "Controle",
+      icon: ActivityIcon,
+      headerShown: true,
+    },
+  ],
+]);
 
 export default function RootLayout() {
   const colorMode = useColorMode();

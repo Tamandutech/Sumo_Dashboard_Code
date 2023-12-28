@@ -11,6 +11,7 @@ export default function Page({ children, ...props }: PageProps) {
       w="$full"
       $dark-bg="$backgroundDark950"
       $light-bg="$backgroundDark50"
+      p="$4"
     >
       {children}
     </Box>
